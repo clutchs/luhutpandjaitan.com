@@ -169,7 +169,7 @@
         </div>
       </div>
       <div class="profile-home-bottom row">
-        <div class="slice slice-white slice-big"><h2>PROFILE</h2></div>
+        <div class="slice slice-white white-big"><h2>PROFILE</h2></div>
         <div class="photo-profile-home col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-2 col-lg-offset-2">
 
           <img class="img-responsive" src="img/foto-profile.png" alt="photo luhut panjaitan">

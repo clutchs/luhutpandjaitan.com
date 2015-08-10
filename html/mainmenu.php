@@ -11,7 +11,7 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Beranda</a></li>
+        <li class="active"><a href="index.php">Beranda</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pemikiran <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -35,7 +35,7 @@
       <div class="title-web"><img src="img/title-web-img.png" alt="luhut panjaitan"></div>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Profile</a></li>
-        <li><a href="">Kontak</a></li>
+        <li><a href="page-contact.php">Kontak</a></li>
         <li><a href="">ID.</a></li>
         <li><a href="">ENG.</a></li>
       </ul>

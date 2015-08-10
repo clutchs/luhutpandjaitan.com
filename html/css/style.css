@@ -3,7 +3,7 @@ html {
 }
 body {
   padding-top: 50px;
-  font-family: gotham;
+  font-family: 'gotham_lightregular';
 }
 .full-width{
   width: 100%;
@@ -100,7 +100,7 @@ body {
   /*width: 48%;*/
   height: auto;
   background: #3085a3;
-  text-align: center;
+  text-align: left;
   cursor: pointer;
 }
 
@@ -157,6 +157,7 @@ body {
 .apollo-hover figure h2,
 .apollo-hover figure p {
   margin: 0;
+  position: relative;
 }
 
 .apollo-hover figure p {
@@ -173,7 +174,6 @@ body {
 figure.effect-apollo {
   background: #B4A283;
 }
-
 figure.effect-apollo img {
   opacity: 0.3;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -271,14 +271,6 @@ figure.effect-apollo:hover p {
   border-right: 100px solid transparent;
   width: 0;
 }
-.blue-big:before {
-  border-top: 125px solid #7396a6;
-  border-right: 125px solid transparent;
-}
-.red-big:before {
-  border-top: 180px solid #7b2c2c;
-  border-right: 180px solid transparent;
-}
 .slice-white:before {
   content: '';
   position: absolute;
@@ -287,14 +279,27 @@ figure.effect-apollo:hover p {
   border-right: 100px solid transparent;
   width: 0;
 }
-.slice-white-right:before {
+.blue-big:before {
+  border-top: 125px solid #7396a6;
+  border-right: 125px solid transparent;
+}
+.red-big:before {
+  border-top: 180px solid #7b2c2c;
+  border-right: 180px solid transparent;
+}
+.white-big:before {
+  border-top: 180px solid #fff;
+  border-right: 180px solid transparent;
+}
+
+/*.slice-white-right:before {
   content: '';
   position: absolute;
   top: 0; right: 0;
   border-top: 100px solid #fff;
   border-left: 100px solid transparent;
   width: 0;
-}
+}*/
 .red-big h2{
   position: relative;
   color: #fff;
@@ -303,6 +308,7 @@ figure.effect-apollo:hover p {
   padding-left: 10px;
 }
 /* CUSTOM CSS GOES HERE */
+.color-red{color:#7b2c2c;}
 .main-photo {
   position: relative;
   color: #fff;
@@ -420,3 +426,22 @@ a.list-group-item {
 }
 .footer form{color: #000;}
 .footer .btn{padding: 3px;}
+.contact-page-brown{
+  background: #B4A283;
+  padding: 50px 0 30px;
+}
+.contact-page-brown label{font-weight: normal;}
+.contact-page-brown .form-control{
+  background: #cfc0a2;
+  border-radius: 0;
+  border-color: transparent;
+}
+.contact-page-brown .form-horizontal .form-group {
+  margin: 0;
+  margin-top: 30px;
+}
+.text-contact{
+  margin: 80px auto;
+}
+.text-contact p{margin: 20px 0;}
+.form-horizontal .control-label{text-align: left;}
