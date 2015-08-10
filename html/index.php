@@ -52,7 +52,7 @@
         <figure class="effect-apollo col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <img class="profile-photo-homepage img-responsive" src="img/profile-home-photo.png" alt="photo profile luhut at homepage">
           <figcaption>
-            <h2>Profile <span>Luhut Panjaitan</span></h2>
+            <h2 class="heading-profile-home">Profile <span>Luhut Panjaitan</span></h2>
             <p>Profile</p>
             <a href="#">Profile</a>
           </figcaption>

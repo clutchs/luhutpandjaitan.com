@@ -15,9 +15,9 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pemikiran <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Quotes</a></li>
+            <li><a href="page-quotes.php">Quotes</a></li>
             <li class="divider"></li>
-            <li><a href="#">Pemikiran</a></li>
+            <li><a href="page-quotes.php">Pemikiran</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -34,7 +34,7 @@
       </ul>
       <div class="title-web"><img src="img/title-web-img.png" alt="luhut panjaitan"></div>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Profile</a></li>
+        <li><a href="page-profile.php">Profile</a></li>
         <li><a href="page-contact.php">Kontak</a></li>
         <li><a href="">ID.</a></li>
         <li><a href="">ENG.</a></li>
