@@ -25,6 +25,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/carousel.js"></script>
   <script src="js/tab.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>  
+  <script src="js/general.js"></script>
   </body>
 </html>
