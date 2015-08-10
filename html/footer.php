@@ -1,3 +1,24 @@
+  <div class="footer">
+    <div class="container">
+      <div class="col-xs-12 col-sm-12 col-md-24 col-lg-2">
+        <a href=""><img src="img/btn-share.png"></a>
+        <a href=""><img src="img/btn-follow.png"></a>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <a href=""><img src="img/link-fb.png"></a>
+        <a href=""><img src="img/link-twitter.png"></a>
+        <a href=""><img src="img/link-web.png"></a>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <form id="custom-search-form" class="form-search form-horizontal pull-right">
+          <div class="input-append span12">
+            <input type="text" class="search-query mac-style" placeholder="Search">
+            <button type="submit" class="btn">search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
   <!-- Bootstrap core JavaScript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->

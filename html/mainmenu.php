@@ -23,7 +23,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Berita <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Artikel</a></li>
+            <li><a href="listberita.php">Artikel</a></li>
             <li class="divider"></li>
             <li><a href="#">Video</a></li>
             <li class="divider"></li>
@@ -32,6 +32,7 @@
         </li>
 
       </ul>
+      <div class="title-web"><img src="img/title-web-img.png" alt="luhut panjaitan"></div>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Profile</a></li>
         <li><a href="">Kontak</a></li>
