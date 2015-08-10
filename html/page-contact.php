@@ -3,7 +3,7 @@
 
     <div class="container full-width">
       <!-- main photo -->
-      <div class="slice slice-blue blue-big"><h2 class="head-photo-img">KONTAK</h2></div>
+      <div class="slice slice-blue blue-big"><h2 class="head-page-contact">KONTAK</h2></div>
       <div class="container">
         <div class="text-contact">
           <h4 class="color-red">Mari saling menyapa. Hubungi Saya melalui Email dan Pin BB di bawah ini :</h4>
@@ -46,6 +46,14 @@
                       </div>
                     </div>
 
+                    <!-- subject input-->
+                    <div class="form-group">
+                      <label class="col-md-3 control-label" for="website">Subject</label>
+                      <div class="col-md-9">
+                        <input id="subject" name="subject" type="text" placeholder="Subject" class="form-control">
+                      </div>
+                    </div>
+
                     <!-- Message body -->
                     <div class="form-group">
                       <label class="col-md-3 control-label" for="message">Your message</label>
@@ -57,7 +65,7 @@
                     <!-- Form actions -->
                     <div class="form-group">
                       <div class="col-md-12 text-right">
-                        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                        <button type="submit" class="btn btn-primary btn-lg">Send</button>
                       </div>
                     </div>
                   </fieldset>

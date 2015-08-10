@@ -100,9 +100,10 @@
         <figure class="effect-apollo profile-homepage col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <img class="profile-photo-homepage img-responsive" src="img/list-berita-homepage.png" alt="thumbnail berita di homepage">
           <figcaption>
-            <h2>Profile <span>Luhut Panjaitan</span></h2>
-            <p>Profile</p>
-            <a href="#">Profile</a>
+            <div class="caption-quotes-page">
+              Judul berita
+            </div>
+            <a href="#">link goes here</a>
           </figcaption>
         </figure>
         <?php } ?>

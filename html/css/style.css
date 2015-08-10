@@ -159,7 +159,6 @@ body {
   margin: 0;
   position: relative;
 }
-
 .apollo-hover figure p {
   letter-spacing: 1px;
   font-size: 68.5%;
@@ -209,7 +208,19 @@ figure.effect-apollo p {
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
 }
-
+figure.effect-apollo .caption-quotes-page{
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  padding: 1em;
+  width: 100%;
+  text-align: left;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  background: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+}
 figure .effect-apollo h2 {
   text-align: left;
   position: relative;
@@ -227,13 +238,12 @@ figure.effect-apollo:hover figcaption::before {
   -webkit-transform: scale3d(3,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
   transform: scale3d(3,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
 }
-
+figure.effect-apollo:hover .caption-quotes-page,
 figure.effect-apollo:hover p {
   opacity: 1;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
-
 /* Media queries */
 @media screen and (max-width: 50em) {
   .content {
@@ -279,6 +289,14 @@ figure.effect-apollo:hover p {
   border-right: 100px solid transparent;
   width: 0;
 }
+.slice-brown:before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  border-top: 100px solid #a7864e;
+  border-right: 100px solid transparent;
+  width: 0;
+}
 .blue-big:before {
   border-top: 125px solid #7396a6;
   border-right: 125px solid transparent;
@@ -307,8 +325,11 @@ figure.effect-apollo:hover p {
   padding-top: 40px;
   padding-left: 10px;
 }
+/* -------------------- */
 /* CUSTOM CSS GOES HERE */
+/* -------------------- */
 .color-red{color:#7b2c2c;}
+.color-black{color: #000;}
 .main-photo {
   position: relative;
   color: #fff;
@@ -385,7 +406,7 @@ a.list-group-item {
   color: #000;
   font-weight: bold;
 }
-.head-photo-img{
+.head-photo-img, .head-page-contact{
   color: #fff;
   position: relative;
   padding-left: 30px;
@@ -393,6 +414,7 @@ a.list-group-item {
   margin-top: 0;
   margin-bottom: -66px;
 }
+.head-page-contact{color: #000;}
 .profile-home-bottom{
   background: #7396A6;
   padding: 0;
@@ -445,3 +467,15 @@ a.list-group-item {
 }
 .text-contact p{margin: 20px 0;}
 .form-horizontal .control-label{text-align: left;}
+.contact-page-brown .btn-lg {
+  border-radius: 0;
+  background: #7396a6;
+  border: transparent;
+}
+.plus{
+  font-size:3em;
+  margin-bottom:-60px;
+  margin-left: 15px;
+  color:#fff;
+  position: relative;
+}
