@@ -14,6 +14,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/general.css" rel="stylesheet">
