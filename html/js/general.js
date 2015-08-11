@@ -10,12 +10,20 @@ function window_check () {
 }
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
-	if ($(".navbar").offset().top > 30) {
-		$(".title-web").find('img').attr({'src':'img/title-web-img2.png'}).fadeIn("slow");
-	} else {
-		$(".title-web").find('img').attr({'src':'img/title-web-img.png'}).fadeIn("slow");
+	//console.log($(this).scrollTop());
+	var offset_navbar = $(this).scrollTop();
+	if (offset_navbar > 30) {
+		$(".title-web").find('img').attr({'src':'img/title-web-img2.png'})
+		.removeClass('animated flipInX')
+		.addClass('animated flipInY');	
+	} else if (offset_navbar < 1) {
+		$(".title-web").find('img').attr({'src':'img/title-web-img.png'})
+		.removeClass('animated flipInY')
+		.addClass('animated flipInX');	
 	}
 });
+
+
 // jQuery document ready
 $(document).ready(function() {
 	$('.navbar-collapse').on('shown.bs.collapse', function() { 
@@ -24,6 +32,11 @@ $(document).ready(function() {
 	$('.navbar-collapse').on('hidden.bs.collapse', function() { 
 		//$(".title-web img").show();
 	});
+	$('.row').addClass("animated").viewportChecker({
+	    classToAdd: 'fadeIn', // Class to add to the elements when they are visible
+	    offset: 0,
+	    repeat: true    
+   	});   
 });
 // jQuery window resize events
 $( window ).resize( function() { window_check(); });	

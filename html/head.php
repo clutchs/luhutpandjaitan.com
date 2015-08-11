@@ -14,7 +14,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
+
     <link href="css/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/general.css" rel="stylesheet">
