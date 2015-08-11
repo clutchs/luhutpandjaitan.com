@@ -319,6 +319,7 @@ figure.effect-apollo:hover p {
   border-left: 100px solid transparent;
   width: 0;
 }*/
+.blue-big h2,
 .red-big h2{
   position: relative;
   color: #fff;
@@ -326,6 +327,7 @@ figure.effect-apollo:hover p {
   padding-top: 40px;
   padding-left: 10px;
 }
+.blue-big h2{color: #000}
 /* -------------------- */
 /* CUSTOM CSS GOES HERE */
 /* -------------------- */
@@ -466,6 +468,7 @@ a.list-group-item {
   padding: 50px 0 30px;
 }
 .contact-page-brown label{font-weight: normal;}
+.bottom-detail,
 .contact-page-brown .form-control{
   background: #cfc0a2;
   border-radius: 0;
@@ -507,3 +510,9 @@ a.list-group-item {
   padding-top: 5%;
 }
 .profile03{margin-left: -20px;}
+.page-detail{font-size: 1.2em;}
+.bottom-detail{padding: 30px;}
+.item-detail{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}

@@ -15,19 +15,19 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pemikiran <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="page-quotes.php">Quotes</a></li>
-            <li class="divider"></li>
             <li><a href="page-quotes.php">Pemikiran</a></li>
+            <li class="divider"></li>
+            <li><a href="page-quotes.php">Quotes</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Berita <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="listberita.php">Artikel</a></li>
+            <li><a href="page-artikel.php">Artikel</a></li>
             <li class="divider"></li>
-            <li><a href="#">Video</a></li>
+            <li><a href="page-artikel.php">Video</a></li>
             <li class="divider"></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="page-artikel.php">Gallery</a></li>
           </ul>
         </li>
 

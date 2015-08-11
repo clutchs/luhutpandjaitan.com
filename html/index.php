@@ -20,7 +20,7 @@
           <section id="carousel">
               <div class="row">
 
-                  <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="30000">
+                  <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
                     <!-- Carousel indicators -->
                     <ol class="carousel-indicators">
                       <?php for($i=0;$i<5;$i++) { ?>

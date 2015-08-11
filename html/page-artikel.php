@@ -23,7 +23,7 @@
                                         <div class="caption-quotes-page">
                                             Judul Pemikiran item
                                         </div>
-                                        <a href="page-pemikiran-detail.php">hidden link</a>
+                                        <a class="fancybox" href="img/pemikiran-item.png" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit">hidden link</a>
                                     </figcaption>
                                 </div>
                             </figure>
