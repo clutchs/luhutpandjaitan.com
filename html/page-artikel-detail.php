@@ -1,12 +1,12 @@
 <?php include 'head.php';?>
     <?php include 'mainmenu.php';?>
     <div class="container full-width">
-        <div class="slice slice-blue blue-big page-blue-big">
+        <div class="slice slice-red red-big">
 
-            <h2 class="color-red"><span>PEMIKIRAN</span></h2>
+            <h2 class="color-red"><span>ARTIKEL</span></h2>
             <div class="container page-detail">
                 <img class="img-float-left" src="img/berita-thumb-item.png" alt="judul berita">
-                <h1 class="color-red">Judul Pemikiran</h1>
+                <h1 class="color-red">Judul Artikel</h1>
                 <P>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae dolor et ante convallis mollis. Praesent non urna vitae diam lobortis sollicitudin at vitae nisl. Cras faucibus lectus id luctus fermentum. Vivamus blandit maximus elit eu luctus. Aliquam nulla sapien, ullamcorper ut hendrerit quis, bibendum at arcu. Fusce consectetur nulla eu fringilla efficitur. Pellentesque faucibus purus vel nisl ornare dictum. Donec risus mauris, pharetra nec massa placerat, ultrices dignissim dui. Praesent vestibulum quam mattis, aliquet tellus ac, fermentum nulla. Nulla sed mattis mauris. Duis laoreet, libero vel tempus iaculis, sem nisl euismod leo, eu vehicula eros justo vel orci. Etiam pulvinar lacus purus, vel convallis sapien vestibulum ut. Etiam tempus suscipit ornare. Cras metus odio, rhoncus vel diam consectetur, tempus fermentum ante. In pulvinar sem id lorem dictum dictum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                 </P>

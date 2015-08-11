@@ -21,7 +21,7 @@ body {
   margin: auto;
   width: 60%;
 }
-
+.carousel-inner-detail > .item {width: 100%;}
 .quote {
   color: rgba(0,0,0,.1);
   text-align: left;
@@ -319,15 +319,14 @@ figure.effect-apollo:hover p {
   border-left: 100px solid transparent;
   width: 0;
 }*/
-.blue-big h2,
+.page-blue-big h2,
 .red-big h2{
   position: relative;
-  color: #fff;
+  color: #000;
   margin: 0;
   padding-top: 40px;
   padding-left: 10px;
 }
-.blue-big h2{color: #000}
 /* -------------------- */
 /* CUSTOM CSS GOES HERE */
 /* -------------------- */
@@ -511,8 +510,5 @@ a.list-group-item {
 }
 .profile03{margin-left: -20px;}
 .page-detail{font-size: 1.2em;}
-.bottom-detail{padding: 30px;}
-.item-detail{
-  padding-left: 10px !important;
-  padding-right: 10px !important;
-}
+.bottom-detail{padding: 0 30px;}
+#myTabs{margin-top: 42px;}
