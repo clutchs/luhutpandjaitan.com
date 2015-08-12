@@ -51,7 +51,6 @@
                                                     <a href="#">link goes here</a>
                                                 </figcaption>
                                             </figure>
-                                            </figure>
                                             <?php } ?>
                                         </div><!--.row-->
                                     </div>

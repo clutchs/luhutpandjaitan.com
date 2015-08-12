@@ -7,9 +7,9 @@
         <img class="main-photo-img img-responsive" src="img/luhut-panjaitan-homepage.jpg" alt="photo main">
         <blockquote>
           <p>
-            <span class="bracket-quotes">&ldquo;</span>
-            Untuk segala sesuatu ada masanya, untuk apa pun di bawah langit ada waktunya.
-            <span class="bracket-quotes">&rdquo;</span>
+            &ldquo;
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum.
+            &rdquo;
           </p>
         </blockquote>
       </div>
@@ -23,61 +23,25 @@
                   <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
                     <!-- Carousel indicators -->
                     <ol class="carousel-indicators">
-                      <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
-                      <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
-                      <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
-                      <li data-target="#fade-quote-carousel" data-slide-to="3"></li>
+                      <?php for($i=0;$i<5;$i++) { ?>
+                      <li data-target="#fade-quote-carousel" data-slide-to="<?php echo $i; ?>" <?php echo $i==0 ? 'class="active"':'' ?>></li>
+                      <?php } ?>
                     </ol>
                     <!-- Carousel items -->
                     <div class="carousel-inner">
-                      <div class="item active">
-                        <h3 class="title-white">QUOTES</h3>
+                      <?php for($i=0;$i<5;$i++) { ?>
+                      <div class="item <?php echo $i==0 ? 'active':'' ?>">
+                        <h3 class="title-white">QUOTES <?php echo $i; ?></h3>
                         <blockquote>
                           <p>
                             <span class="bracket-quotes">&ldquo;</span>
-                            Untuk segala sesuatu ada masanya, untuk apa pun di bawah langit ada waktunya.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.
                             <span class="bracket-quotes">&rdquo;</span>
                           </p>
                         </blockquote>
                         <a class="btn btn-default btn-box" href="#" role="button">More Quotes</a>
                       </div>
-
-                      <div class="item">
-                        <h3 class="title-white">QUOTES</h3>
-                        <blockquote>
-                          <p>
-                            <span class="bracket-quotes">&ldquo;</span>
-                            Kalau kau berbuat baik jangan kau ingat-ingat supaya kau membuat kebaikan yang lain, kalau kau berbuat jahat ingat-ingatlah perbuatan itu supaya jangan kau mengulanginya."
-                            Itu kata bapak saya.
-                            <span class="bracket-quotes">&rdquo;</span>
-                          </p>
-                        </blockquote>
-                        <a class="btn btn-default btn-box" href="#" role="button">More Quotes</a>
-                      </div>
-
-                      <div class="item">
-                        <h3 class="title-white">QUOTES</h3>
-                        <blockquote>
-                          <p>
-                            <span class="bracket-quotes">&ldquo;</span>
-                            Kepintaran itu penting, tapi integritas kita sebagai manusia itu lebih penting
-                            <span class="bracket-quotes">&rdquo;</span>
-                          </p>
-                        </blockquote>
-                        <a class="btn btn-default btn-box" href="#" role="button">More Quotes</a>
-                      </div>
-
-                      <div class="item">
-                        <h3 class="title-white">QUOTES</h3>
-                        <blockquote>
-                          <p>
-                            <span class="bracket-quotes">&ldquo;</span>
-                            Jangan hitung untung ruginya. Membangun angkatan bersenjata memang investasi mahal jangka panjang.
-                            <span class="bracket-quotes">&rdquo;</span>
-                          </p>
-                        </blockquote>
-                        <a class="btn btn-default btn-box" href="page-quotes.php" role="button">More Quotes</a>
-                      </div>
+                      <?php } ?>
                     </div>
                   </div>
 
@@ -88,7 +52,7 @@
         <figure class="effect-apollo col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <img class="profile-photo-homepage img-responsive" src="img/profile-home-photo.png" alt="photo profile luhut at homepage">
           <figcaption>
-            <h2 class="heading-profile-home">Profile  <span> Luhut Pandjaitan</span></h2>
+            <h2 class="heading-profile-home">Profile <span>Luhut Panjaitan</span></h2>
             <p>Profile</p>
             <a href="#">Profile</a>
           </figcaption>
@@ -101,14 +65,16 @@
           <img class="profile-photo-homepage img-responsive" src="img/pemikiran-hompage.png" alt="pemikiran Luhut Panjaitan">
           <figcaption>
             <div class="slice slice-blue"><h2><span style="font-size:2em; margin-right:80px;">&plus;</span><span>PEMIKIRAN</span></h2></div>
-            <a href="page-quotes.php">hidden link</a>
+            <p>Profile</p>
+            <a href="#">Profile</a>
           </figcaption>
         </figure>
         <figure class="effect-apollo col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <img class="profile-photo-homepage img-responsive" src="img/berita-hompage.png" alt="pemikiran Luhut Panjaitan">
           <figcaption>
             <div class="slice slice-red"><h2><span style="font-size:2em; margin-right:80px;">&plus;</span><span>BERITA</span></h2></div>
-            <a href="#">hidden link</a>
+            <p>Profile</p>
+            <a href="#">Profile</a>
           </figcaption>
         </figure>
 
@@ -121,15 +87,15 @@
           <div class="pemikiran-homepage">
             <blockquote>
               <p>
-                <span class="bracket-quotes">&ldquo;</span>
-                Untuk segala sesuatu ada masanya, untuk apa pun di bawah langit ada waktunya.
-                <span class="bracket-quotes">&rdquo;</span>
+                &ldquo;
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.
+                &rdquo;
               </p>
             </blockquote>
           </div>
         </div>
       </div>
-      <!--<div class="row apollo-hover">
+      <div class="row apollo-hover">
         <?php for($i=0;$i<6;$i++) { ?>
         <figure class="effect-apollo profile-homepage col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <img class="profile-photo-homepage img-responsive" src="img/list-berita-homepage.png" alt="thumbnail berita di homepage">
@@ -141,8 +107,8 @@
           </figcaption>
         </figure>
         <?php } ?>
-      </div>-->
-      <!--<div class="list-items-news">
+      </div>
+      <div class="list-items-news">
         <div class="slice slice-red red-big"><h2><span>BERITA</span></h2></div>
         <div class="container">
           <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
@@ -200,9 +166,9 @@
 
               </div>
             </div>
-          </div> /example
+          </div><!-- /example -->
         </div>
-      </div>-->
+      </div>
       <div class="profile-home-bottom row">
         <div class="slice slice-white white-big"><h2>PROFILE</h2></div>
         <div class="photo-profile-home col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-2 col-lg-offset-2">
@@ -216,6 +182,9 @@
           <p>
             Luhut Pandjaitan lahir 28 September 1847 di Simargala, Toba Samosir, Sumatera Utara.
             Ia dikenal sebagai profesional yang mengawali karir militer di TNI AD selama 29 tahun, dengan pangkat terakhir sebagai Jenderal Kopassus bintang empat. Ia juga pernah menjabat sebagai Duta Besar Indonesia untuk Singapura (1999-2000) dan Menteri Perdagangan dan Industri RI (2000-2001).
+          </p>
+          <p>
+            Eu feugait euripidis pri, mei ea congue munere constituto, in luptatum deterruisset quo. Wisi appetere temporibus ei qui. Sed tollit audiam feugiat ne, et quo sonet officiis persecuti, at quod audiam vel. Eu vis ullum facer, duo quidam virtute id. Augue mazim dicit duo ea, ei usu assum iisque repudiandae, no solum mundi mentitum sea. Accusam appareat duo cu, ut commodo debitis suscipit nam, affert dignissim vis ei. Numquam laoreet democritum per an.
           </p>
           <a class="btn btn-default btn-box" href="#" role="button">Kenal Lebih Baik</a>
         </div>

@@ -78,16 +78,6 @@ body {
 *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 .clearfix:before, .clearfix:after { display: table; content: ''; }
 .clearfix:after { clear: both; }
-/*.apollo-hover {
-  position: relative;
-  clear: both;
-  margin: 0 auto;
-  padding: 1em 0 4em;
-  max-width: 1000px;
-  list-style: none;
-  text-align: center;
-}*/
-
 /* Common style */
 .apollo-hover figure {
   position: relative;
@@ -245,19 +235,7 @@ figure.effect-apollo:hover p {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
-/* Media queries */
-@media screen and (max-width: 50em) {
-  .content {
-    padding: 0 10px;
-    text-align: center;
-  }
-  .grid figure {
-    display: inline-block;
-    float: none;
-    margin: 10px auto;
-    width: 100%;
-  }
-}
+
 /*-----------------*/
 /***** SLICING DIV *****/
 /*-----------------*/
@@ -512,3 +490,26 @@ a.list-group-item {
 .page-detail{font-size: 1.2em;}
 .bottom-detail{padding: 0 30px;}
 #myTabs{margin-top: 42px;}
+.img-thumbnail-listing{overflow: hidden; max-height: 550px;}
+
+/* --------------------- */
+/* Media queries */
+/* --------------------- */
+@media screen and (max-width: 50em) {
+  .content {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .grid figure {
+    display: inline-block;
+    float: none;
+    margin: 10px auto;
+    width: 100%;
+  }
+}
+@media (max-width:1280px){
+  .img-thumbnail-listing{overflow: hidden; max-height: 370px;}
+}
+@media (max-width:1024px){
+  .img-thumbnail-listing{overflow: hidden; max-height: 300px;}
+}

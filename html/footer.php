@@ -5,8 +5,8 @@
         <a href=""><img src="img/btn-follow.png"></a>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <a href=""><img src="img/link-fb.png"></a>
-        <a href=""><img src="img/link-twitter.png"></a>
+        <a href="https://www.facebook.com/luhutbinsar.pandjaitan"><img src="img/link-fb.png"></a>
+        <a href="https://twitter.com/luhutpandjaitan"><img src="img/link-twitter.png"></a>
         <a href=""><img src="img/link-web.png"></a>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">

@@ -15,15 +15,38 @@
 
                     <div class="row apollo-hover">
                         <div class="list-group">
-                            <?php for($i=0;$i<8;$i++) { ?>
+                            <?php for($a=0;$a<4;$a++) {
+                                $pemikiran = array(
+                                    "pemikiran-1-Semangat-Baru-Peningkatan-Pajak.jpg",
+                                    "pemikiran-2-Lee-Kuan-Yew-yang-Saya-Kenal.jpg",
+                                    "Pemikiran-3-Kesombongan-Rohani.jpg",
+                                    "Pemikiran-4-Kisah-Bertemu-Saddam-Hussein.jpg"
+                                );
+
+                                $title_pemikiran = array(
+                                    "Semangat Baru Peningkatan Pajak",
+                                    "Lee Kuan Yew yang Saya Kenal",
+                                    "Kesombongan Rohani",
+                                    "Kisah Bertemu Saddam Hussein"
+                                );
+
+                                $link_pemikiran = array(
+                                    "page-pemikiran-detail-1.php",
+                                    "page-pemikiran-detail-2.php",
+                                    "page-pemikiran-detail-3.php",
+                                    "page-pemikiran-detail-4.php"
+                                );
+                            ?>
                             <figure class="effect-apollo profile-homepage col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                 <div class="slice slice-brown"><div class="plus">&plus;</div>
-                                    <img class="profile-photo-homepage img-responsive" src="img/pemikiran-item.png" alt="thumbnail berita di homepage">
+                                    <div class="img-thumbnail-listing">
+                                        <img class="profile-photo-homepage img-responsive" src="img/items/<?php  echo $pemikiran[$a]; ?>" alt="thumbnail berita di homepage">
+                                    </div>
                                     <figcaption>
                                         <div class="caption-quotes-page">
-                                            Judul Pemikiran item
+                                            <?php  echo $title_pemikiran[$a]; ?>
                                         </div>
-                                        <a href="page-pemikiran-detail.php">hidden link</a>
+                                        <a href="<?php  echo $link_pemikiran[$a]; ?>">hidden link</a>
                                     </figcaption>
                                 </div>
                             </figure>
@@ -36,15 +59,36 @@
 
                     <div class="row apollo-hover">
                         <div class="list-group">
-                            <?php for($i=0;$i<12;$i++) { ?>
+
+                            <?php for($i=0;$i<12;$i++) {
+
+                                  $quotes = array(
+                                      "anak-muda-indonesia-2.png",
+                                      "cukup-dan-terima-kasih-indonesia-1.png",
+                                      "eksport-teknologi-1.jpg",
+                                      "kabinet-kerja.jpg",
+                                      "kearifan-1.png",
+                                      "musuh-abadi-1.jpg",
+                                      "pesan-bapak-saya-1.png",
+                                      "presiden-beri-contoh-2-2-1.jpg",
+                                      "saya-juga-manusia-1.jpg",
+                                      "semua-persoalan-bisa-diatasi.jpg",
+                                      "speak-up-1.jpg",
+                                      "teamwork-3.jpg"
+                                  );
+
+                            ?>
+
                             <figure class="effect-apollo profile-homepage col-xs-12 col-sm-12 col-md-3 col-lg-3">
                                 <div class="slice slice-brown"><div class="plus">&plus;</div>
-                                <img class="profile-photo-homepage img-responsive" src="img/quotes-item.png" alt="thumbnail berita di homepage">
+                                    <div class="img-thumbnail-listing">
+                                        <img class="profile-photo-homepage img-responsive" src="img/items/<?php  echo $quotes[$i]; ?>" alt="quotes">
+                                    </div>
                                 <figcaption>
                                     <div class="caption-quotes-page">
                                         terimakasih
                                     </div>
-                                    <a class="fancybox" href="img/quotes-item.png"title="Lorem ipsum dolor sit amet, consectetur adipiscing elit">hidden link</a>
+                                    <a class="fancybox" href="img/items/<?php  echo $quotes[$i]; ?>" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit">hidden link</a>
                                 </figcaption>
                                 </div>
                             </figure>
