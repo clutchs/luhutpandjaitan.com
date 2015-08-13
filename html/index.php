@@ -6,7 +6,7 @@
       <div class="main-photo">
         <img class="main-photo-img img-responsive" src="img/luhut-panjaitan-homepage.jpg" alt="photo main">
         <blockquote>
-          <p>
+          <p class="hilights">
             <span class="bracket-quotes">&ldquo;</span>
             Untuk segala sesuatu ada masanya, untuk apa pun di bawah langit ada waktunya.
             <span class="bracket-quotes">&rdquo;</span>
