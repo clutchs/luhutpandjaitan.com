@@ -384,6 +384,7 @@ a.list-group-item {
   color: #fff;
   font-size: 3em;
   font-weight: 700;
+  font-family: 'gotham_boldregular';
 }
 /*.bracket-quotes{font-size: 6em; line-height: 0;}*/
 .btn-box{
@@ -507,6 +508,11 @@ a.list-group-item {
   text-transform: uppercase;
   background: rgba(0,0,0,0.7);
   padding: 10px 20px;
+}
+.big-quotes{
+  color:#fff;
+  font-size: 2em;
+  text-transform: uppercase;
 }
 /* --------------------- */
 /* Media queries */

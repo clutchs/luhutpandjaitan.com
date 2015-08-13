@@ -123,7 +123,7 @@
         <div class="profile-homepage col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <div class="pemikiran-homepage">
             <blockquote>
-              <p>
+              <p class="big-quotes">
                 <span class="bracket-quotes">&ldquo;</span>
                 Untuk segala sesuatu ada masanya, untuk apa pun di bawah langit ada waktunya.
                 <span class="bracket-quotes">&rdquo;</span>
