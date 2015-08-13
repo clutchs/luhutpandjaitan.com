@@ -406,6 +406,7 @@ a.list-group-item {
   margin-top: 0;
   margin-bottom: -66px;
 }
+.head-photo-img a,.head-photo-img a:hover{text-decoration: none;}
 .head-page-contact{color: #000;}
 .profile-home-bottom{
   background: #7396A6;
@@ -491,7 +492,17 @@ a.list-group-item {
 .bottom-detail{padding: 0 30px;}
 #myTabs{margin-top: 42px;}
 .img-thumbnail-listing{overflow: hidden; max-height: 550px;}
-
+.kebangkitan{
+  position: absolute;
+  bottom:10%;
+  left: 0;
+  font-size: 3em;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: rgba(0,0,0,0.7);
+  padding: 10px 20px;
+}
 /* --------------------- */
 /* Media queries */
 /* --------------------- */

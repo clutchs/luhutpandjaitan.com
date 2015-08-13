@@ -5,7 +5,7 @@
 
             <h2 class="color-red"><span>PEMIKIRAN</span></h2>
             <div class="container page-detail">
-                <img class="img-float-left" src="img/items/Pemikiran-4-Kisah-Bertemu-Saddam-Hussein.jpg" alt="judul berita">
+                <img class="img-ctr img-responsive" src="img/items/Pemikiran-4-Kisah-Bertemu-Saddam-Hussein.jpg" alt="judul berita">
                 <h1 class="color-red">Kisah Bertemu Saddam Hussein</h1>
                 <p>
                     Kali ini saya akan bercerita mengenai pengalaman saya saat bertemu dengan Presiden Irak Saddam Hussein. Bagi saya ini merupakan pengalaman yang cukup menarik dan langka.

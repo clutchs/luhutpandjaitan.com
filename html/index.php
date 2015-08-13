@@ -86,22 +86,22 @@
           <!-- /.carousel -->
         </div>
         <figure class="effect-apollo col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <img class="profile-photo-homepage img-responsive" src="img/pemikiran-hompage.png" alt="pemikiran Luhut Panjaitan">
+          <figcaption>
+            <div class="slice slice-blue"><h2><span style="font-size:2em; margin-right:80px;">&plus;</span><span>PEMIKIRAN</span></h2></div>
+            <a href="page-quotes.php">hidden link</a>
+          </figcaption>
+        </figure>
+
+      </div>
+      <div class="pemikiran row apollo-hover">
+
+        <figure class="effect-apollo col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <img class="profile-photo-homepage img-responsive" src="img/profile-home-photo.png" alt="photo profile luhut at homepage">
           <figcaption>
             <h2 class="heading-profile-home">Profile  <span> Luhut Pandjaitan</span></h2>
             <p>Profile</p>
             <a href="#">Profile</a>
-          </figcaption>
-        </figure>
-      </div>
-      <div class="pemikiran row apollo-hover">
-
-
-        <figure class="effect-apollo col-xs-12 col-sm-12 col-md-6 col-lg-6">
-          <img class="profile-photo-homepage img-responsive" src="img/pemikiran-hompage.png" alt="pemikiran Luhut Panjaitan">
-          <figcaption>
-            <div class="slice slice-blue"><h2><span style="font-size:2em; margin-right:80px;">&plus;</span><span>PEMIKIRAN</span></h2></div>
-            <a href="page-quotes.php">hidden link</a>
           </figcaption>
         </figure>
         <figure class="effect-apollo col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -114,8 +114,11 @@
 
 
         <div class="profile-homepage col-xs-12 col-sm-12 col-md-8 col-lg-8">
+          <a href="page-pemikiran-detail-2.php">
           <div class="slice slice-blue blue-big"><h2 class="head-photo-img">PEMIKIRAN</h2></div>
+          <h3 class="kebangkitan">107 Tahun Kebangkitan Nasional</h3>
           <img class="profile-photo-homepage img-responsive" src="img/photo-pemikiran-homepage.png" alt="pemikiran Luhut Panjaitan">
+          </a>
         </div>
         <div class="profile-homepage col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <div class="pemikiran-homepage">
@@ -129,7 +132,7 @@
           </div>
         </div>
       </div>
-      <!--<div class="row apollo-hover">
+      <div class="row apollo-hover">
         <?php for($i=0;$i<6;$i++) { ?>
         <figure class="effect-apollo profile-homepage col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <img class="profile-photo-homepage img-responsive" src="img/list-berita-homepage.png" alt="thumbnail berita di homepage">
@@ -141,8 +144,8 @@
           </figcaption>
         </figure>
         <?php } ?>
-      </div>-->
-      <!--<div class="list-items-news">
+      </div>
+      <div class="list-items-news">
         <div class="slice slice-red red-big"><h2><span>BERITA</span></h2></div>
         <div class="container">
           <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
@@ -200,9 +203,9 @@
 
               </div>
             </div>
-          </div> /example
+          </div> <!--example-->
         </div>
-      </div>-->
+      </div>
       <div class="profile-home-bottom row">
         <div class="slice slice-white white-big"><h2>PROFILE</h2></div>
         <div class="photo-profile-home col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-2 col-lg-offset-2">
@@ -211,10 +214,9 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
           <p>
-            Luhut Pandjaitan lahir 28 September 1847 di Simargala, Toba Samosir, Sumatera Utara.
+            Luhut Pandjaitan lahir 28 September 1947 di Simargala, Toba Samosir, Sumatera Utara.
           </p>
           <p>
-            Luhut Pandjaitan lahir 28 September 1847 di Simargala, Toba Samosir, Sumatera Utara.
             Ia dikenal sebagai profesional yang mengawali karir militer di TNI AD selama 29 tahun, dengan pangkat terakhir sebagai Jenderal Kopassus bintang empat. Ia juga pernah menjabat sebagai Duta Besar Indonesia untuk Singapura (1999-2000) dan Menteri Perdagangan dan Industri RI (2000-2001).
           </p>
           <a class="btn btn-default btn-box" href="#" role="button">Kenal Lebih Baik</a>

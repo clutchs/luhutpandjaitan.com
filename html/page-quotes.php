@@ -18,14 +18,14 @@
                             <?php for($a=0;$a<4;$a++) {
                                 $pemikiran = array(
                                     "pemikiran-1-Semangat-Baru-Peningkatan-Pajak.jpg",
-                                    "pemikiran-2-Lee-Kuan-Yew-yang-Saya-Kenal.jpg",
+                                    "pemikiran-2-107-tahun-kebangkitan-nasional.jpg",
                                     "Pemikiran-3-Kesombongan-Rohani.jpg",
                                     "Pemikiran-4-Kisah-Bertemu-Saddam-Hussein.jpg"
                                 );
 
                                 $title_pemikiran = array(
                                     "Semangat Baru Peningkatan Pajak",
-                                    "Lee Kuan Yew yang Saya Kenal",
+                                    "107 Tahun Kebangkitan Nasional",
                                     "Kesombongan Rohani",
                                     "Kisah Bertemu Saddam Hussein"
                                 );

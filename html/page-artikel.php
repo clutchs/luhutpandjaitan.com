@@ -5,7 +5,7 @@
         <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
 
             <ul id="myTabs" class="nav nav-tabs container" role="tablist">
-                <li role="presentation"><a href="#galerry" role="tab" id="galerry-tab" data-toggle="tab" aria-controls="galerry">Galerry</a></li>
+                <li role="presentation"><a href="#galerry" role="tab" id="galerry-tab" data-toggle="tab" aria-controls="galerry">Gallery</a></li>
                 <li role="presentation"><a href="#video" role="tab" id="video-tab" data-toggle="tab" aria-controls="video">Video</a></li>
                 <li role="presentation" class="active"><a href="#artikel" id="artikel-tab" role="tab" data-toggle="tab" aria-controls="artikel" aria-expanded="true">Artikel</a></li>
             </ul>

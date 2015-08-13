@@ -5,7 +5,7 @@
 
             <h2 class="color-red"><span>PEMIKIRAN</span></h2>
             <div class="container page-detail">
-                <img class="img-float-left" src="img/items/pemikiran-1-Semangat-Baru-Peningkatan-Pajak.jpg" alt="judul berita">
+                <img class="img-ctr img-responsive" src="img/items/pemikiran-1-Semangat-Baru-Peningkatan-Pajak.jpg" alt="judul berita">
                 <h1 class="color-red">Semangat Baru Peningkatan Pajak</h1>
                 <p>
                     Presiden Jokowi ditanya target pajak yang naik hampir 40 persen. Apakah ini bisa tercapai? Padahal tahun-tahun sebelumnya, penerimaan pajak hanya naik 5 persen per tahun. Itu pun sulit tercapai.

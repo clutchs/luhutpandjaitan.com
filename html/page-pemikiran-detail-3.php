@@ -5,7 +5,7 @@
 
             <h2 class="color-red"><span>PEMIKIRAN</span></h2>
             <div class="container page-detail">
-                <img class="img-float-left" src="img/items/Pemikiran-3-Kesombongan-Rohani.jpg" alt="judul berita">
+                <img class="img-ctr img-responsive" src="img/items/Pemikiran-3-Kesombongan-Rohani.jpg" alt="judul berita">
                 <h1 class="color-red">Kesombongan Rohani</h1>
                 <p>
                     "Pendeta-pendeta memang banyak bergumul dalam doa. Kalau doanya berhasil kadang timbul kesombongan rohani. Kadang pula merasa tenar karena bisa mendengar bisikan Tuhan atau Roh Kudus, padahal dia lupa dia juga manusia."
