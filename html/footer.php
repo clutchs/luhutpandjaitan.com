@@ -41,6 +41,19 @@
           }
         }
       });
+
+      //$("#video").css("display", "none"); //HIDE THE VIDEO INITIALLY
+      $(".hover-play").hover(function ()
+                            {
+        //$("#video").css("display", "block"); //SHOW THE VIDEO ON HOVER
+        $("#video").children("video")[0].play();
+      },
+
+                            function () {
+        var el =$("#video").children("video")[0];
+        el.pause();
+        el.currentTime = 0;
+      });
     });
   </script>
   </body>

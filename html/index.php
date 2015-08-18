@@ -104,11 +104,17 @@
             <a href="#">Profile</a>
           </figcaption>
         </figure>
-        <figure class="effect-apollo col-xs-12 col-sm-12 col-md-6 col-lg-6">
-          <img class="profile-photo-homepage img-responsive" src="img/berita-hompage.png" alt="pemikiran Luhut Panjaitan">
+
+        <figure class="effect-apollo hover-play col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div id ="video">
+              <video preload="auto" loop width="100%">
+                <source src="pemikiran.webm" type="video/webm">
+                <source src="pemikiran.mp4" type="video/mp4">
+                <source src="pemikiran.ogv" type="video/ogg">
+              </video>
+            </div>
           <figcaption>
             <div class="slice slice-red"><h2><span style="font-size:2em; margin-right:80px;">&plus;</span><span>BERITA</span></h2></div>
-            <a href="#">hidden link</a>
           </figcaption>
         </figure>
 
