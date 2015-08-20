@@ -15,19 +15,63 @@
                     <div class="container">
                         <div class="row">
                             <div class="list-group">
-                                <?php for($i=0;$i<5;$i++) { ?>
-                                <a href="page-artikel-detail.php" class="list-group-item">
-                                    <div class="media col-md-4 col-md-offset-1">
-                                        <img class="img-responsive"  src="img/berita-thumb-item.png" alt="judul berita disini" >
+
+                                <?php for($a=0;$a<8;$a++) {
+                                $artikel = array(
+                                    "artikel-1-AIMAN-MENELISIK-RENCANA-LUHUT-PANDJAITAN.jpg",
+                                    "artikel-2-LUHUT-KAMI-SEPAKAT-MENGEDEPANKAN-PENCEGAHAN-KORUPSI.jpg",
+                                    "artikel-3-INI-AGENDA-BESAR-KEMENKOPULHAM-DIBAWAH-LUHUT-PANDJAITAN.jpg",
+                                    "artikel-4-DUA-KALI-PRESIDEN-JOKOWI-KASIH-SAYA-KEJUTAN.jpg",
+                                    "artikel-5-JADI-MENTRI-LUHUT-PANDJAITAN-SAYA-TAK-INGIN-MACAM-MACAM.jpg",
+                                    "artikel-6-MENTRI-LUHUT-INGIN-ANAK-BUAHNYA-SATU-PANDANGAN.jpg",
+                                    "artikel-7-TUGAS-SAYA-BUAT-STABILITAS-HUKUM-AGAR-ORANG-AMAN-BERINVESTASI.jpg",
+                                    "artikel-8-KUNJUNGAN-KERJA-KE-PAPUA.jpg"
+                                );
+
+                                $title_artikel = array(
+                                    "Aiman Menelisik Rencana Luhut Pandjaitan",
+                                    "Luhut kami sepakat mengedepankan pencegahan korupsi",
+                                    "Ini agenda besar kemenkopulham dibawah luhut pandjaitan",
+                                    "Dua kali presiden jokowi kasih saya kejutan",
+                                    "Jadi mentri luhut pandjaitan : saya tak ingin macam - macam",
+                                    "Mentri luhut ingin anak buahnya satu pandangan",
+                                    "Tugas saya buat stabilitas hukum agar orang aman berinvestasi",
+                                    "Kunjungan kerja ke papua"
+                                );
+
+                                $link_artikel = array(
+                                    "page-artikel-detail-1.php",
+                                    "page-artikel-detail-2.php",
+                                    "page-artikel-detail-3.php",
+                                    "page-artikel-detail-4.php",
+                                    "page-artikel-detail-5.php",
+                                    "page-artikel-detail-6.php",
+                                    "page-artikel-detail-7.php",
+                                    "page-artikel-detail-8.php"
+                                );
+
+                                $sinopsis_artikel = array(
+                                    "Pakai nuranimu sajalah. Kalau sekarang kamu bikin, semua orang kamu hukum.... Kamu tanya dirimu juga, kamu sakit jiwa atau apa? Dan kamu tanya dirimu, kamu jujur tidak? Jangan-jangan kamu maling juga",
+                                    "JAKARTA, KOMPAS.com — Menteri Koordinator Politik Hukum dan Keamanan Luhut Binsar Pandjaitan menegaskan, kementerian dan lembaga yang berada di jajarannya akan ikut membantu sektor perekonomian Indonesia",
+                                    "REPUBLIKA.CO.ID, JAKARTA -- Menteri Koordinator Politik dan Keamanan (Menkopolhukam) Luhut Binsar Pandjaitan mengatakan salah satu agenda besar yang akan diusung oleh pihaknya adalah menjamin stabilitas keamanan.",
+                                    "TRIBUNNEWS.COM, JAKARTA - Dipercaya menjabat Menteri Koordinator Politik Hukum dan Keamanan adalah kejutan kedua yang diterima Luhut Binsar Panjaitan dari Presiden Joko Widodo.",
+                                    "Suara.com - Hari ini, Kamis (13/8/2015), Luhut Binsar Pandjaitan? mulai beraktivitas sebagai Menteri Koordinator Politik Hukum dan Keamanan menggantikan? Tedjo Edhy Purdijatno.",
+                                    "Metrotvnews.com, Jakarta: Menko Politik Hukum dan Keamanan Luhut Binsar Pandjaitan ingin semua pejabat di bawah koordinasinya satu suara setiap berbicara soal kebijakan. Jangan sampai ada silang pendapat di tengah publik.",
+                                    "Jakarta - Menko Polhukam Luhut Panjaitan akan bertugas untuk memastikan situasi politik dan hukum di Indonesia tidak lagi gaduh. Dengan situasi yang kondusif, orang akan semakin nyaman berinvestasi di Indonesia.",
+                                    "Masalah konektivitas jalur darat dan harga komoditi yang mahal di kawasan pegunungan Papua bakal bisa terselesaikan sebelum masa pemerintahan Jokowi berakhir."
+                                );
+                                ?>
+                                <a href="<?php  echo $link_artikel[$a]; ?>" class="list-group-item">
+                                    <div class="media col-md-4 col-md-offset-1 list-img-artikel">
+                                        <img class="img-responsive"  src="img/items/<?php echo $artikel[$a]; ?>" alt="judul berita disini" >
                                     </div>
                                     <div class="col-md-4 col-md-offset-1">
-                                        <h4 class="list-group-item-heading"> List group heading </h4>
-                                        <p class="list-group-item-text"> Qui diam libris ei, vidisse incorrupte at mel. His euismod salutandi dissentiunt eu. Habeo offendit ea mea. Nostro blandit sea ea, viris timeam molestiae an has. At nisl platonem eum.
-                                            Vel et nonumy gubergren, ad has tota facilis probatus. Ea legere legimus tibique cum, sale tantas vim ea, eu vivendo expetendis vim. Voluptua vituperatoribus et mel, ius no elitr deserunt mediocrem. Mea facilisi torquatos ad.
-                                        </p>
+                                        <h4 class="list-group-item-heading color-red"><?php echo $title_artikel[$a]; ?></h4>
+                                        <p class="list-group-item-text"><?php  echo $sinopsis_artikel[$a]; ?></p>
                                     </div>
                                 </a>
                                 <?php } ?>
+
                             </div>
                         </div>
                     </div>

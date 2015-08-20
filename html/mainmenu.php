@@ -32,7 +32,7 @@
         </li>
 
       </ul>
-      <div class="title-web"><img src="img/title-web-img.png" alt="luhut panjaitan"></div>
+      <div class="title-web"><img src="img/title-new-web-img.png" alt="luhut panjaitan"></div>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="page-profile.php">Profile</a></li>
         <li><a href="page-contact.php">Kontak</a></li>

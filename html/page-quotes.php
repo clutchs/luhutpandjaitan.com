@@ -15,26 +15,35 @@
 
                     <div class="row apollo-hover">
                         <div class="list-group">
-                            <?php for($a=0;$a<4;$a++) {
+                            <?php for($a=0;$a<7;$a++) {
                                 $pemikiran = array(
                                     "pemikiran-1-Semangat-Baru-Peningkatan-Pajak.jpg",
                                     "pemikiran-2-107-tahun-kebangkitan-nasional.jpg",
                                     "Pemikiran-3-Kesombongan-Rohani.jpg",
-                                    "Pemikiran-4-Kisah-Bertemu-Saddam-Hussein.jpg"
+                                    "Pemikiran-4-Kisah-Bertemu-Saddam-Hussein.jpg",
+                                    "pemikiran-5-hidup-tak-hanya-untuk-mencari.png",
+                                    "pemikiran-6-kenang-kenangan-taufiq-kiemas.jpg",
+                                    "pemikiran-7-film-jendral-soedirman.jpg"
                                 );
 
                                 $title_pemikiran = array(
                                     "Semangat Baru Peningkatan Pajak",
                                     "107 Tahun Kebangkitan Nasional",
                                     "Kesombongan Rohani",
-                                    "Kisah Bertemu Saddam Hussein"
+                                    "Kisah Bertemu Saddam Hussein",
+                                    "Hidup Tak Hanya Mencari",
+                                    "Kenang Kenangan Taufiq Kiemas",
+                                    "Film Jendral Soedirman"
                                 );
 
                                 $link_pemikiran = array(
                                     "page-pemikiran-detail-1.php",
                                     "page-pemikiran-detail-2.php",
                                     "page-pemikiran-detail-3.php",
-                                    "page-pemikiran-detail-4.php"
+                                    "page-pemikiran-detail-4.php",
+                                    "page-pemikiran-detail-5.php",
+                                    "page-pemikiran-detail-6.php",
+                                    "page-pemikiran-detail-7.php"
                                 );
                             ?>
                             <figure class="effect-apollo profile-homepage col-xs-12 col-sm-12 col-md-6 col-lg-6">

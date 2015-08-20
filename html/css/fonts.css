@@ -51,3 +51,16 @@
 	font-style: normal;
 
 }
+
+@font-face {
+	font-family: 'dearjoe_5_dearjoe5casualtrial';
+	src: url('../fonts/dj5ctrial-webfont.eot');
+	src: url('../fonts/dj5ctrial-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/dj5ctrial-webfont.woff2') format('woff2'),
+		url('../fonts/dj5ctrial-webfont.woff') format('woff'),
+		url('../fonts/dj5ctrial-webfont.ttf') format('truetype'),
+		url('../fonts/dj5ctrial-webfont.svg#dearjoe_5_dearjoe5casualtrial') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
