@@ -3,7 +3,6 @@
     <div class="container full-width">
         <div class="slice slice-red red-big">
 
-            <h2 class="color-red"><span>ARTIKEL</span></h2>
             <div class="container page-detail">
                 <img class="img-float-left" src="img/items/artikel-5-JADI-MENTRI-LUHUT-PANDJAITAN-SAYA-TAK-INGIN-MACAM-MACAM.jpg" alt="judul berita">
                 <h1 class="color-red">Jadi mentri luhut pandjaitan : saya tak ingin macam - macam</h1>

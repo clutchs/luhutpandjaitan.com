@@ -3,7 +3,6 @@
     <div class="container full-width">
         <div class="slice slice-blue blue-big page-blue-big">
 
-            <h2 class="color-red"><span>PEMIKIRAN</span></h2>
             <div class="container page-detail">
                 <img class="img-float-left" src="img/berita-thumb-item.png" alt="judul berita">
                 <h1 class="color-red">Judul Pemikiran</h1>

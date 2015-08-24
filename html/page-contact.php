@@ -3,16 +3,14 @@
 
     <div class="container full-width">
       <!-- main photo -->
-      <div class="slice slice-blue blue-big"><h2 class="head-page-contact">KONTAK</h2></div>
+      <h2 class="head-page-contact">KONTAK</h2>
       <div class="container">
         <div class="text-contact">
-          <h4 class="color-red">Mari saling menyapa. Hubungi Saya melalui Email dan Pin BB di bawah ini :</h4>
-
-          <p class="effect-apollo col-xs-12 col-sm-12 col-md-6 col-lg-6">Telp : (021)xxxxxxx</p>
-          <p class="effect-apollo col-xs-12 col-sm-12 col-md-6 col-lg-6">Pin BB : 2B2F2BAF</p>
-          <p class="effect-apollo col-xs-12 col-sm-12 col-md-6 col-lg-6">Email : adms.lbp@gmail.com</p>
-          <p class="effect-apollo col-xs-12 col-sm-12 col-md-6 col-lg-6">Website : www.luhutpandjaitan.com</p>
-
+          <h4 class="color-red">
+            Mari saling menyapa.<br>
+            hubungi saya melalui email : adms.lbp@gmail.com, <br>
+            facebook : https://www.facebook.com/luhutbinsar.pandjaitan, <br>
+          </h4>
           <p>Atau Meninggalkan Pesan Dibawah ini :</p>
         </div>
       </div>

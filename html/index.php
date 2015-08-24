@@ -20,7 +20,7 @@
           <section id="carousel">
               <div class="row">
 
-                  <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                  <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="30000">
                     <!-- Carousel indicators -->
                     <ol class="carousel-indicators">
                       <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
@@ -39,7 +39,9 @@
                             <span class="bracket-quotes">&rdquo;</span>
                           </p>
                         </blockquote>
-                        <a class="btn btn-default btn-box" href="#" role="button">More Quotes</a>
+                        <div class="more-quotes">
+                          <a class="btn btn-default btn-box" href="#" role="button">More Quotes</a>
+                        </div>
                       </div>
 
                       <div class="item">
@@ -108,9 +110,7 @@
         <figure class="effect-apollo hover-play col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div id ="video">
               <video preload="auto" loop width="100%">
-                <source src="pemikiran02.webm" type="video/webm">
                 <source src="pemikiran02.mp4" type="video/mp4">
-                <source src="pemikiran02.ogv" type="video/ogg">
               </video>
             </div>
           <figcaption>
@@ -119,7 +119,7 @@
         </figure>
 
 
-        <div class="profile-homepage col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <div id="pemikiran-home" class="profile-homepage col-xs-12 col-sm-12 col-md-8 col-lg-8">
           <a href="page-pemikiran-detail-2.php">
           <!--<div class="slice slice-blue blue-big"></div>-->
             <h2 class="head-photo-img">PEMIKIRAN</h2>
@@ -132,8 +132,7 @@
             <blockquote>
               <p class="big-quotes">
                 <span class="bracket-quotes">&ldquo;</span>
-                Secara pribadi saya merasa sudah cukup, telah banyak yang telah saya
-                raih dalam hidup ini. Saya ingin berterimakasih pada bangsa dan negara ini.
+                Kebangkitan Nasional adalah masa di mana bangkitnya rasa dan semangat persatuan, kesatuan, dan nasionalisme serta kesadaran untuk memperjuangkan kemerdekaan Republik Indonesia.
                 <span class="bracket-quotes">&rdquo;</span>
               </p>
             </blockquote>
@@ -187,8 +186,8 @@
         </figure>
         <?php } ?>
       </div>
-      <div class="list-items-news">
-        <div class="slice slice-red red-big"><h2><span>BERITA</span></h2></div>
+      <div id="berita-home" class="list-items-news">
+        <h2>BERITA</h2>
         <div class="container">
           <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
             <ul id="myTabs" class="nav nav-tabs" role="tablist">
@@ -336,8 +335,8 @@
           </div> <!--example-->
         </div>
       </div>
-      <div class="profile-home-bottom row">
-        <div class="slice slice-white white-big"><h2>PROFILE</h2></div>
+      <div id="profile-home" class="profile-home-bottom row">
+        <h2>PROFILE</h2>
         <div class="photo-profile-home col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-2 col-lg-offset-2">
 
           <img class="img-responsive" src="img/foto-profile.png" alt="photo luhut panjaitan">
@@ -349,7 +348,7 @@
           <p>
             Ia dikenal sebagai profesional yang mengawali karir militer di TNI AD selama 29 tahun, dengan pangkat terakhir sebagai Jenderal Kopassus bintang empat. Ia juga pernah menjabat sebagai Duta Besar Indonesia untuk Singapura (1999-2000) dan Menteri Perdagangan dan Industri RI (2000-2001).
           </p>
-          <a class="btn btn-default btn-box" href="#" role="button">Kenal Lebih Baik</a>
+          <a class="btn btn-default btn-box" href="page-profile.php" role="button">Kenal Lebih Baik</a>
         </div>
       </div>
     </div><!-- /.container -->

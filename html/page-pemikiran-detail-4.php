@@ -3,7 +3,6 @@
     <div class="container full-width">
         <div class="slice slice-blue blue-big page-blue-big">
 
-            <h2 class="color-red"><span>PEMIKIRAN</span></h2>
             <div class="container page-detail">
                 <img class="img-ctr img-responsive" src="img/items/Pemikiran-4-Kisah-Bertemu-Saddam-Hussein.jpg" alt="judul berita">
                 <h1 class="color-red">Kisah Bertemu Saddam Hussein</h1>

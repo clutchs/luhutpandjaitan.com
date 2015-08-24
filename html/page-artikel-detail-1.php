@@ -3,7 +3,6 @@
     <div class="container full-width">
         <div class="slice slice-red red-big">
 
-            <h2 class="color-red"><span>ARTIKEL</span></h2>
             <div class="container page-detail">
                 <img class="img-float-left" src="img/items/artikel-1-AIMAN-MENELISIK-RENCANA-LUHUT-PANDJAITAN.jpg" alt="judul berita">
                 <h1 class="color-red">Aiman Menelisik Rencana Luhut Pandjaitan</h1>

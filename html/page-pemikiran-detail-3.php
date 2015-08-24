@@ -3,7 +3,6 @@
     <div class="container full-width">
         <div class="slice slice-blue blue-big page-blue-big">
 
-            <h2 class="color-red"><span>PEMIKIRAN</span></h2>
             <div class="container page-detail">
                 <img class="img-ctr img-responsive" src="img/items/Pemikiran-3-Kesombongan-Rohani.jpg" alt="judul berita">
                 <h1 class="color-red">Kesombongan Rohani</h1>

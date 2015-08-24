@@ -42,3 +42,20 @@ $(document).ready(function() {
 $( window ).resize( function() { window_check(); });
 // jQuery load window
 jQuery(window).load(function() { window_check(); });
+
+
+
+
+$(function(){
+	$(".dropdown").hover(
+		function() {
+			$('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+			$(this).toggleClass('open');
+			$('b', this).toggleClass("caret caret-up");
+		},
+		function() {
+			$('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+			$(this).toggleClass('open');
+			$('b', this).toggleClass("caret caret-up");
+		});
+});

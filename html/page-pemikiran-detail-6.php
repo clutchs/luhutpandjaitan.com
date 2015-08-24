@@ -3,7 +3,6 @@
     <div class="container full-width">
         <div class="slice slice-blue blue-big page-blue-big">
 
-            <h2 class="color-red"><span>PEMIKIRAN</span></h2>
             <div class="container page-detail">
                 <img class="img-ctr img-responsive" src="img/items/pemikiran-6-kenang-kenangan-taufiq-kiemas.jpg" alt="judul berita">
                 <h1 class="color-red">Kenang Kenangan Taufiq Kiemas</h1>

@@ -3,7 +3,6 @@
     <div class="container full-width">
         <div class="slice slice-blue blue-big page-blue-big">
 
-            <h2 class="color-red"><span>PEMIKIRAN</span></h2>
             <div class="container page-detail">
                 <img class="img-float-left" src="img/items/pemikiran-2-Lee-Kuan-Yew-yang-Saya-Kenal.jpg" alt="judul berita">
                 <h1 class="color-red">Lee Kuan Yew yang Saya Kenal</h1>

@@ -3,7 +3,6 @@
     <div class="container full-width">
         <div class="slice slice-blue blue-big page-blue-big">
 
-            <h2 class="color-red"><span>PEMIKIRAN</span></h2>
             <div class="container page-detail">
                 <img class="img-ctr img-responsive" src="img/items/pemikiran-7-film-jendral-soedirman.jpg" alt="judul berita">
                 <h1 class="color-red">Film Jendral Soedirman</h1>
